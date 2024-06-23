@@ -1,0 +1,30 @@
+footer {
+    background-color: #355592;
+    padding: 20px 0; 
+  }
+  
+  .footer-content {
+    max-width: 1050px; 
+    margin: 0 auto; 
+    align-items: center; 
+  }
+  
+  .logo img {
+    max-width: 175px;
+  }
+ /* Responsive Styles */
+
+@media (max-width: 576px) {
+
+ .footer-content p{
+    margin: 0 25px;
+  }
+
+  .footer-content  .logo img {
+    margin: 0 25px;
+    max-width: 200px;
+  }
+
+}
+  
+  
